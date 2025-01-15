@@ -1,0 +1,166 @@
+/* Universal */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* General Styles */
+
+body,
+h2,
+h4,
+a {
+  color: seashell;
+}
+
+#mission,
+#locations {
+  width: 1200px;
+}
+
+/* Header */
+#header {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+#header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: underline;
+  margin: 0px 10px;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Mission Section */
+#mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  background-image: url("./images/img-mission-background.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#mission div,
+#tea-of-the-month header {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+#mission h2,
+#mission h4,
+#tea-of-the-month h2,
+#tea-of-the-month h4 {
+  margin: 15px 0px;
+}
+
+/* Tea of the Month Section */
+#tea-of-the-month {
+  width: 1000px;
+  margin: 75px 0;
+}
+
+#grid-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-item figure img {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.grid-item figure figcaption {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+article.grid-item + article.grid-item {
+  margin-left: 25px;
+}
+
+/* Location Section */
+#locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  background-image: url("./images/img-locations-background.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#shops {
+  display: flex;
+  margin-top: 15px;
+}
+
+#shops .location {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 300px;
+}
+
+#shops .location h3,
+#shops .location h3 ~ p {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#shops article.location + article.location {
+  margin-left: 40px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+}
+
+#contact {
+  height: 200px;
+  text-align: center;
+}
+
+#contact h2 {
+  margin: 15px 0 40px 0;
+}
+
+#contact h5 {
+  margin: 20px 0;
+}
+
+#copyright {
+  margin: 0 0 40px 20px;
+  text-align: left;
+}
