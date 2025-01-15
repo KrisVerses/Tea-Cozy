@@ -1,7 +1,3 @@
-Here’s an example README for your Tea Cozy project, based on the Codecademy project description and the mockup provided:
-
----
-
 # Tea Cozy Mock Website
 
 A responsive, static website for a mock tea shop called **Tea Cozy**, designed as part of Codecademy’s Full-Stack Engineer career path. This project demonstrates the use of **HTML5** and **CSS3**, with a focus on clean layouts and responsive design using **Flexbox**.
